@@ -1,0 +1,444 @@
+<!doctype HTML/>
+
+<html>
+	<head>
+	<title>Nostalgigames</title>
+	
+	<style type="text/css">
+		.background {
+			background-color: #292929;
+		}
+		.body {
+			width: 1000px; 
+			height: 1250px; 
+			background-color: #F0F0F0; 
+			margin: 0 auto;
+		}
+		#navBar {
+			position: absolute;
+			width: 150px;
+			background-color: white; 
+			text-align: center; 
+			padding: 5px;
+			margin-top: 0px;
+			margin-top: 3px;
+			border-top: 1px solid black;
+			border-right: 1px solid black;
+			border-bottom: 1px solid black;
+		}
+		#navBar A:link {
+			text-decoration: none; 
+			font-size: 20; 
+			color: #292929;
+		}
+		#navBar A:hover {
+			text-decoration: underline;
+			font-size 20;
+			color: #292929; 
+		}
+		#navBar A:visited {
+			text-decoration: none; 
+			font-size:20; 
+			color: #292929;
+		}
+		#headLine {
+			position: absolute; top: 100; left: 300; 
+			width: 817px; 
+			font-size: 20px;
+		}
+		#newGame {
+			position: absolute; top: 170; left: 300;
+			width: 200px;
+			height: 140px;
+			margin-top: 0;
+			border: solid thin black;
+			background-color: white;
+			border-radius: 3px;
+		}
+		#newGame A:link {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame A:hover {
+			text-decoration: underline;
+			color: #292929;
+		}
+		#newGame A:visited {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame2 A:link {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame2 A:hover {
+			text-decoration: underline;
+			color: #292929;
+		}
+		#newGame2 A:visited {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame3 A:link {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame3 A:hover {
+			text-decoration: underline;
+			color: #292929;
+		}
+		#newGame3 A:visited {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame4 A:link {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame4 A:hover {
+			text-decoration: underline;
+			color: #292929;
+		}
+		#newGame4 A:visited {
+			text-decoration: none;
+			color: #292929;
+		}
+		#gameTitle {
+			width: 200px;
+			height: 20px;
+			background-color: #292929;
+			color: white;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		#newGame2 {
+			position: absolute; top: 170; left: 505;
+			width: 200px;
+			height: 140px;
+			margin-top: 0;
+			border: solid thin black;
+			background-color: white;
+			border-radius: 3px;
+		}
+		#gameTitle2 {
+			width: 200px;
+			height: 20px;
+			background-color: #292929;
+			color: white;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		#newGame3 {
+			position: absolute; top: 170; left: 710;
+			width: 200px;
+			height: 140px;
+			margin-top: 0;
+			border: solid thin black;
+			background-color: white;
+			border-radius: 3px;
+		}
+		#gameTitle3 {
+			width: 200px;
+			height: 20px;
+			background-color: #292929;
+			color: white;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		#newGame4 {
+			position: absolute; top: 170; left: 915;
+			width: 200px;
+			height: 140px;
+			margin-top: 0;
+			border: solid thin black;
+			background-color: white;
+			border-radius: 3px;
+		}
+		#gameTitle4 {
+			width: 200px;
+			height: 20px;
+			background-color: #292929;
+			color: white;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		#footer {
+			position: absolute; top: 1155; left: 131px;
+			height: 100px;
+			width: 1000px;
+			text-align: center; 
+			background-color: white;
+			border-top: 1px solid black;
+		}
+		#footerLinks {
+			position: absolute; 
+			top: 1235;
+			left: 870;
+		}
+		#footerLinks A:link {
+			text-decoration: none;
+			font-size: 12px;
+			color: #292929;
+		}
+		#footerLinks A:hover {
+			text-decoration: underline;
+			font-size: 12px;
+			color: #292929;
+		}
+		#footerLinks A:visited {
+			text-decoration: none;
+			font-size: 12px;
+			color: #292929;
+		}
+		#freeHeadLine {
+			position: absolute; top: 315px; left: 140px;
+			width: 793px;
+			font-size: 20px;
+		}
+		#FreeGames {
+			margin-top: 275px;
+			width: 800px;
+			height: 700px;
+			border-top: solid 1px black;
+			border-right: solid 1px black;
+			border-bottom: solid 1px black;
+			background-color: white;
+		}
+		
+		
+		#GameHead1 {
+			position: absolute; top: 380px; left: 145px;
+			height: 25px;
+			background-color: #292929;
+			width: 210px;
+			border-radius: 3px;
+			color: white;
+			font-size: 18px;
+			text-align: center;
+		}
+		#Game1 {
+			position: absolute; top: 420px; left: 145px;
+			height: 100px; 
+			width: 765px;
+			color: white;
+			background-color: #292929;
+			border-radius: 3px;
+		}
+		#Desc1 {
+		position: absolute; left: 225px; top: 0px;
+		width: 450px;
+		}
+		
+		
+		#GameHead2 {
+			position: absolute; top: 520px; left: 145px;
+			height: 25px;
+			background-color: #292929;
+			width: 210px;
+			border-radius: 3px;
+			color: white;
+			font-size: 18px;
+			text-align: center;
+		}
+		#Game2 {
+			position: absolute; top: 560px; left: 145px;
+			height: 100px; 
+			width: 765px;
+			color: white;
+			background-color: #292929;
+			border-radius: 3px;
+		}
+		#Desc2 {
+		position: absolute; left: 225px; top: 0px;
+		width: 450px;
+		}
+		
+		
+		#GameHead3 {
+			position: absolute; top: 660px; left: 145px;
+			height: 25px;
+			background-color: #292929;
+			width: 210px;
+			border-radius: 3px;
+			color: white;
+			font-size: 18px;
+			text-align: center;
+		}
+		#Game3 {
+			position: absolute; top: 700px; left: 145px;
+			height: 100px; 
+			width: 765px;
+			color: white;
+			background-color: #292929;
+			border-radius: 3px;
+		}
+		#Desc3 {
+		position: absolute; left: 225px; top: 0px;
+		width: 450px;
+		}
+		
+		
+		#GameHead4 {
+			position: absolute; top: 800px; left: 145px;
+			height: 25px;
+			background-color: #292929;
+			width: 210px;
+			border-radius: 3px;
+			color: white;
+			font-size: 18px;
+			text-align: center;
+		}
+		#Game4 {
+			position: absolute; top: 840px; left: 145px;
+			height: 100px; 
+			width: 765px;
+			color: white;
+			background-color: #292929;
+			border-radius: 3px;
+		}
+		#Desc4 {
+			position: absolute; left: 225px; top: 0px;
+			width: 450px;
+		}
+		#Categories {
+			position: absolute; top: 400px; left: 500px;
+			height: 500px; width: 100px; 
+			border: 1px solid black;
+			background-color: white;
+		}
+		
+	</style>
+	</head>
+	
+	<body class="background">
+	
+		<div class="body">
+		<img src="Title.jpg" style="border-bottom: 3px solid black;">
+		
+			<div id="navBar">
+				<a href="index.html">Home</a></p><hr></hr>
+				<a href="#">Games</a></p><hr></hr>
+				<a href="Login.html">Login</a></p><hr></hr>
+				<a href="#">Sign up</a></p>
+			</div>
+			
+			<div id="headLine">
+				<p>New Releases</p><hr></hr>
+			</div>
+
+			<div id="newGame">
+				<p id="gameTitle">Minecraft</p>
+				
+				<img src="Minecraft.jpg" height="95" width="200"
+				style="margin-top: 0; border-bottom: 1px solid black;"/>
+				</br>
+				<a href="http:\\minecraft.net" style="margin-left: 25px;">Description </a>&nbsp; | &nbsp;
+				<button type="submit" value="purchase" style="text-align: right; background-color: #292929;
+				color: white;">Purchase</button>
+			</div>
+			
+			<div id="Categories">
+				
+			</div>
+			
+			<div id="newGame2">
+				<p id="gameTitle2">World of Yore</p>
+				
+				<img src="Worldofyore.jpg" height="95" width="200"
+				style="margin-top: 0; border-bottom: 1px solid black;"/>
+				</br>
+				<a href="http:\\worldofyore.com" style="margin-left: 25px;">Description </a>&nbsp; | &nbsp;
+				<button type="submit" value="purchase" style="text-align: right; background-color: #292929;
+				color: white;">Purchase</button>
+			</div>
+			
+			
+			
+			<div id="newGame3">
+				<p id="gameTitle3">Pokemon: Somethin</p>
+				
+				<img src="Pokemon.jpg" height="95" width="200"
+				style="margin-top: 0; border-bottom: 1px solid black;"/>
+				</br>
+				<a href="http:\\pokemon.com" style="margin-left: 25px;">Description </a>&nbsp; | &nbsp;
+				<button type="submit" value="purchase" style="text-align: right; background-color: #292929;
+				color: white;;">Purchase</button>
+			</div>
+			
+			<div id="newGame4">
+				<p id="gameTitle4">Zelda: Skyward Sword</p>
+				
+				<img src="Zelda.jpg" height="95" width="200"
+				style="margin-top: 0; border-bottom: 1px solid black;"/>
+				</br>
+				<a href="http:\\skywardsword.com" style="margin-left: 25px;">Description </a>&nbsp; | &nbsp;
+				<button type="submit" value="purchase" style="text-align: right;  background-color: #292929;
+				color: white;">Purchase</button>
+			</div>
+			
+			<div id="freeHeadLine">
+				<p>Free Games</p><hr></hr>
+			</div>
+			
+			<div id="FreeGames">
+				
+				<p id="GameHead1">Angry Birds</p>
+				<div id="Game1">
+					<img src="AngryBirds.jpg" height="90" width="200" style="margin-top: 5px; margin-left: 5px;"/>
+					<p id="Desc1">Angry Birds is taking over the world!  Fling your angry companions at the mischievous pigs and conquer all!
+						Try out what has been keeping America addicted for more than 3 years and counting, now for free!</p>
+					<button type="submit" width="100" height="25px;" style="background-color: white;
+						position: absolute; top: 70px; left: 675px;">Play Game</button>
+				</div>
+				
+				<p id="GameHead2">Chrono Trigger</p>
+				<div id="Game2">
+					<img src="ChronoTrigger.jpg" height="90" width="200" style="margin-top: 5px; margin-left: 5px;"/>
+					<p id="Desc2">Chrono Trigger features standard role-playing video game gameplay with several innovations.
+						The player controls the protagonist and his companions in the game's two-dimensional fictional world, 
+						consisting of various forests, cities, and dungeons.</p>
+					<button type="submit" width="100" height="25px;" style="background-color: white;
+						position: absolute; top: 70px; left: 675px;">Play Game</button>
+				</div>
+				
+				<p id="GameHead3">Donkey Kong Country</p>
+				<div id="Game3">
+					<img src="DKCountry.jpg" height="90" width="200" style="margin-top: 5px; margin-left: 5px;"/>
+					<p id="Desc3">Join the Kongs in this 2D adventure classic of the 90's.  Collect as many bananas as you
+						can while you fight off all of the evil dudes tryna' jack 'em all!</p>
+					<button type="submit" width="100" height="25px;" style="background-color: white;
+						position: absolute; top: 70px; left: 675px;">Play Game</button>
+				</div>
+			</div>
+			
+			<p id="GameHead4">Final Fantasy III</p>
+				<div id="Game4">
+					<img src="FF3.jpg" height="90" width="200" style="margin-top: 5px; margin-left: 5px;"/>
+					<p id="Desc4">In the game's original NES version the player controls four generic Light Warriors,
+						four children without distinct identities, who, upon finding the Wind Crystal, are granted its power
+						in order to save the world.</p>
+					<button type="submit" width="100" height="25px;" style="background-color: white;
+						position: absolute; top: 70px; left: 675px;">Play Game</button>
+				</div>
+			</div>
+			
+			<div id="footer">
+				<p>Copyright Cody Azevedo</br>CFO Damien Underwood</br>2011-2011</p>
+			</div>
+				
+			<div id="footerLinks">
+				<a href="#">Help</a> &nbsp; |
+				<a href="#">About</a> &nbsp; |
+				<a href="#">Terms of Service</a> &nbsp; |
+				<a href="#">Contact us</a>
+			</div>
+	</body>
+</html>
+
+
+
+

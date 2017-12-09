@@ -1,0 +1,376 @@
+.background {
+			background-color: #292929;
+		}
+		.body {
+			width: 1000px; 
+			height: 1125px; 
+			background-color: #E0E0E0; 
+			position: absolute; top: 10px; left: 100% auto; right: 100% auto;
+		}
+		#navBar {
+			position: absolute;
+			width: 150px;
+			background-color: white; 
+			text-align: center; 
+			padding: 5px;
+			margin-top: 0px;
+			margin-top: 3px;
+			border-top: 1px solid black;
+			border-right: 1px solid black;
+			border-bottom: 1px solid black;
+		}
+		#navBar A:link {
+			text-decoration: none; 
+			font-size: 20; 
+			color: #292929;
+		}
+		#navBar A:hover {
+			text-decoration: underline;
+			font-size 20;
+			color: #292929; 
+		}
+		#navBar A:visited {
+			text-decoration: none; 
+			font-size:20; 
+			color: #292929;
+		}
+		#headLine {
+			position: absolute; top: 90; left: 175; 
+			width: 817px; 
+			font-size: 20px;
+		}
+		#newGame {
+			position: absolute; top: 162; left: 175;
+			width: 200px;
+			height: 140px;
+			margin-top: 0;
+			border: solid thin black;
+			background-color: white;
+			border-radius: 3px;
+		}
+		#newGame A:link {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame A:hover {
+			text-decoration: underline;
+			color: #292929;
+		}
+		#newGame A:visited {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame2 A:link {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame2 A:hover {
+			text-decoration: underline;
+			color: #292929;
+		}
+		#newGame2 A:visited {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame3 A:link {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame3 A:hover {
+			text-decoration: underline;
+			color: #292929;
+		}
+		#newGame3 A:visited {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame4 A:link {
+			text-decoration: none;
+			color: #292929;
+		}
+		#newGame4 A:hover {
+			text-decoration: underline;
+			color: #292929;
+		}
+		#newGame4 A:visited {
+			text-decoration: none;
+			color: #292929;
+		}
+		#gameTitle {
+			width: 200px;
+			height: 20px;
+			background-color: #292929;
+			color: white;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		#newGame2 {
+			position: absolute; top: 162; left: 380;
+			width: 200px;
+			height: 140px;
+			margin-top: 0;
+			border: solid thin black;
+			background-color: white;
+			border-radius: 3px;
+		}
+		#gameTitle2 {
+			width: 200px;
+			height: 20px;
+			background-color: #292929;
+			color: white;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		#newGame3 {
+			position: absolute; top: 162; left: 585;
+			width: 200px;
+			height: 140px;
+			margin-top: 0;
+			border: solid thin black;
+			background-color: white;
+			border-radius: 3px;
+		}
+		#gameTitle3 {
+			width: 200px;
+			height: 20px;
+			background-color: #292929;
+			color: white;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		#newGame4 {
+			position: absolute; top: 162; left: 790;
+			width: 200px;
+			height: 140px;
+			margin-top: 0;
+			border: solid thin black;
+			background-color: white;
+			border-radius: 3px;
+		}
+		#gameTitle4 {
+			width: 200px;
+			height: 20px;
+			background-color: #292929;
+			color: white;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		#footer {
+			position: absolute; top: 100%;
+			height: 100px;
+			width: 1000px;
+			text-align: center; 
+			background-color: white;
+			border-top: 1px solid black;
+		}
+		#footerLinks {
+			position: absolute; 
+			top: 106%;
+			left: 73%;
+		}
+		#footerLinks A:link {
+			text-decoration: none;
+			font-size: 12px;
+			color: #292929;
+		}
+		#footerLinks A:hover {
+			text-decoration: underline;
+			font-size: 12px;
+			color: #292929;
+		}
+		#footerLinks A:visited {
+			text-decoration: none;
+			font-size: 12px;
+			color: #292929;
+		}
+		#freeHeadLine {
+			position: absolute; top: 315px; left: 5px;
+			width: 796px;
+			font-size: 20px;
+		}
+		#FreeGames {
+			position: absolute; top: 385px; left: 0px;
+			width: 800px;
+			height: 700px;
+			border-top: solid 1px black;
+			border-right: solid 1px black;
+			border-bottom: solid 1px black;
+			background-color: white;
+		}
+		
+		
+		#GameHead1 {
+			position: absolute; left: 10px;
+			height: 25px;
+			background-color: #292929;
+			width: 210px;
+			border-radius: 3px;
+			color: white;
+			font-size: 18px;
+			text-align: center;
+		}
+		#Game1 {
+			position: absolute; top: 38px; left: 10px;
+			height: 100px; 
+			width: 765px;
+			color: white;
+			background-color: #292929;
+			border-radius: 3px;
+		}
+		#Desc1 {
+		position: absolute; left: 225px; top: 0px;
+		width: 450px;
+		}
+		
+		
+		#GameHead2 {
+			position: absolute; top: 130px; left: 10px;
+			height: 25px;
+			background-color: #292929;
+			width: 210px;
+			border-radius: 3px;
+			color: white;
+			font-size: 18px;
+			text-align: center;
+		}
+		#Game2 {
+			position: absolute; top: 169px; left: 10px;
+			height: 100px; 
+			width: 765px;
+			color: white;
+			background-color: #292929;
+			border-radius: 3px;
+		}
+		#Desc2 {
+		position: absolute; left: 225px; top: 0px;
+		width: 450px;
+		}
+		
+		
+		#GameHead3 {
+			position: absolute; top: 260px; left: 10px;
+			height: 25px;
+			background-color: #292929;
+			width: 210px;
+			border-radius: 3px;
+			color: white;
+			font-size: 18px;
+			text-align: center;
+		}
+		#Game3 {
+			position: absolute; top: 299px; left: 10px;
+			height: 100px; 
+			width: 765px;
+			color: white;
+			background-color: #292929;
+			border-radius: 3px;
+		}
+		#Desc3 {
+		position: absolute; left: 225px; top: 0px;
+		width: 450px;
+		}
+		
+		
+		#GameHead4 {
+			position: absolute; top: 390px; left: 10px;
+			height: 25px;
+			background-color: #292929;
+			width: 210px;
+			border-radius: 3px;
+			color: white;
+			font-size: 18px;
+			text-align: center;
+		}
+		#Game4 {
+			position: absolute; top: 429px;left: 10px;
+			height: 100px; 
+			width: 765px;
+			color: white;
+			background-color: #292929;
+			border-radius: 3px;
+		}
+		#Desc4 {
+			position: absolute; left: 225px; top: 0px;
+			width: 450px;
+		}
+		
+		#GameHead5 {
+			position: absolute; top: 520px; left: 10px;
+			height: 25px;
+			background-color: #292929;
+			width: 210px;
+			border-radius: 3px;
+			color: white;
+			font-size: 18px;
+			text-align: center;
+		}
+		#Game5 {
+			position: absolute; top: 559px; left: 10px;
+			height: 100px; 
+			width: 765px;
+			color: white;
+			background-color: #292929;
+			border-radius: 3px;
+		}
+		#Desc5 {
+			position: absolute; left: 225px; top: 0px;
+			width: 450px;
+		}
+		
+		#CategoriesHead {
+		position: absolute; top: 315px; left: 819px; 
+		width: 181px;
+		font-size: 20px;
+		}
+		#Categories {
+			position: absolute; top: 386px; left: 819px;
+			height: 400px; width: 180px; 
+			border: 1px solid black;
+			background-color: white;
+		}
+		#Categories A:link {
+			text-decoration: none;
+			color: #292929;
+			font-size: 18px;
+		}
+		#Categories A:hover {
+			text-decoration: underline;
+			color: #292929;
+			font-size: 18px;
+		}
+		#Categories A:visited {
+			text-decoration: none;
+			color: #202020;
+			font-size: 18px;
+		}
+		
+		#ExtrasHead {
+		position: absolute; top: 815px; left: 819px; 
+		width: 181px;
+		font-size: 20px;
+		}
+		#Extras {
+			position: absolute; top: 885px; left: 819px;
+			height: 200px; width: 180px; 
+			border: 1px solid black;
+			background-color: white;
+		}
+		#Extras A:link {
+			text-decoration: none;
+			color: #292929;
+			font-size: 18px;
+		}
+		#Extras A:hover {
+			text-decoration: underline;
+			color: #292929;
+			font-size: 18px;
+		}
+		#Extras A:visited {
+			text-decoration: none;
+			color: #202020;
+			font-size: 18px;
+		}
