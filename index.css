@@ -4,8 +4,9 @@
 		.body {
 			width: 1000px; 
 			height: 1125px; 
-			background-color: #E0E0E0; 
-			position: absolute; top: 10px; left: 100% auto; right: 100% auto;
+			background-color: #E0E0E0;
+			margin-left: auto;
+			margin-right: auto; 
 		}
 		#navBar {
 			position: absolute;
